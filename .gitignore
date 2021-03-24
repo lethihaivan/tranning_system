@@ -40,3 +40,13 @@ yarn-debug.log*
 
 /config/database.yml
 /config/credentials.yml.enc
+
+config/settings.local.yml
+config/settings/*.local.yml
+config/environments/*.local.yml
+.vscode/
+
+/test
+/storage
+# Ignore application configuration
+/config/application.yml
